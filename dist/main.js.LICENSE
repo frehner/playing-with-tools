@@ -3,3 +3,11 @@
   \******************/
 
 /*! exports provided: myExportedVar */
+
+/*! ./other.js */
+
+/*!******************!*\
+  !*** ./other.js ***!
+  \******************/
+
+/*! exports provided: exportedConst */

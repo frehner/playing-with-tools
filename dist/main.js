@@ -75,7 +75,19 @@
       __webpack_require__.d(__webpack_exports__, "myExportedVar", function() {
         return myExportedVar;
       });
+    var _other_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      "./other.js"
+    );
+    console.log(_other_js__WEBPACK_IMPORTED_MODULE_0__.exportedConst);
     const myExportedVar = !0;
+  },
+  "./other.js": function(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+    __webpack_require__.r(__webpack_exports__),
+      __webpack_require__.d(__webpack_exports__, "exportedConst", function() {
+        return exportedConst;
+      });
+    const exportedConst = !1;
   }
 });
 //# sourceMappingURL=main.js.map
