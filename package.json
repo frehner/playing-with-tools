@@ -5,15 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack && prettier --write \"dist/*.js\""
+    "start": "babel index.js --out-dir dist && prettier --write \"dist/*.js\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "prettier": "^1.19.1",
-    "terser-webpack-plugin": "^2.2.1",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "prettier": "^1.19.1"
   }
 }
